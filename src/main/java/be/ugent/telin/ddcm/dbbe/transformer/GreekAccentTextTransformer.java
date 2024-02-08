@@ -13,7 +13,7 @@ public class GreekAccentTextTransformer extends AbstractRegexTextTransformer {
         regexReplacements.add(Pair.of("ᾠ|ᾡ|ᾢ|ᾣ|ᾤ|ᾥ|ᾦ|ᾧ|ῲ|ῴ|ῶ|ῷ|ῷ", "ῳ"));
         regexReplacements.add(Pair.of("έ|ἐ|ἑ|ἒ|ἓ|ἔ|ἕ|ὲ|έ|ε̃", "ε"));
         regexReplacements.add(Pair.of("ά|ἀ|ἁ|ἂ|ἃ|ἄ|ἅ|ἆ|ἇ|ά|ᾶ|ὰ", "α"));
-        regexReplacements.add(Pair.of("ᾀ|ᾁ|ᾂ|ᾃ|ᾄ|ᾅ|ᾆ|ᾇ|ᾲ|ᾴ|ᾷ", "ᾳ"));
+        regexReplacements.add(Pair.of("ά|ἀ|ἁ|ἂ|ἃ|ἄ|ἅ|ἆ|ἇ|ά|ᾶ|ὰ", "α"));
         regexReplacements.add(Pair.of("ΰ|ϋ|ύ|ὐ|ὑ|ὒ|ὓ|ὔ|ὕ|ὖ|ὗ|ὺ|ύ|ῠ|ῡ|ῢ|ΰ|ῦ|ῧ", "υ"));
         regexReplacements.add(Pair.of("ή|ἠ|ἡ|ἢ|ἣ|ἤ|ἥ|ἦ|ἧ|ὴ|ή|ῆ", "η"));
         regexReplacements.add(Pair.of("ᾐ|ᾑ|ᾒ|ᾓ|ᾔ|ᾕ|ᾖ|ᾗ|ῂ|ῃ|ῄ|ῇ", "ῃ"));

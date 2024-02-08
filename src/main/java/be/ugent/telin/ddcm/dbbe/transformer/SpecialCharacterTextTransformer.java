@@ -10,6 +10,6 @@ public class SpecialCharacterTextTransformer extends AbstractRegexTextTransforme
     @Override
     protected void fillRegexReplacements(List<Pair<String, String>> regexReplacements) {
         //regexReplacements.add(Pair.of("[+|:\\--··`'’ǁ‧⁘÷‖.–]", ""));
-        regexReplacements.add(Pair.of("\\[|\\]|\\+|\\||:|-|-|·|·|`|'|’|ǁ|‧|⁘|÷|‖|<|>|–|~|⁜|༶|˙|᾽|…|\\\\|;|†|=|΄|´|※|\\{|\\}", ""));
+        regexReplacements.add(Pair.of("\\[|\\]|\\+|\\||:|-|-|·|·|`|'|’|ǁ|‧|⁘|÷|‖|<|>|–|~|⁜|༶|˙|᾽|…|\\\\|;|†|=|΄|´|※|\\{|\\}|‒|∙|ʹ|∙", ""));
     }
 }

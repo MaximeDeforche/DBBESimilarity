@@ -76,13 +76,19 @@ public class DBBETextTransformerTests {
         String s3 = "ξενοι";
         String s4 = "ηδυν";
         String s5 = "ιδῃν";
-        String s6 = "χαιροισιν";
+        String s6 = "χαιρουσιν";
+        String s7 = "χαιρουσην";
+        String s8 = "ναυς";
+        String s9 = "Ζευς";
 
         Assert.assertEquals("ιδιν", itacismTransformer.apply(s1));
         Assert.assertEquals("ιδιν", itacismTransformer.apply(s2));
         Assert.assertEquals("ξενι", itacismTransformer.apply(s3));
         Assert.assertEquals("ιδιν", itacismTransformer.apply(s4));
         Assert.assertEquals("ιδιν", itacismTransformer.apply(s5));
-        Assert.assertEquals("χαιρισιν", itacismTransformer.apply(s6));
+        Assert.assertEquals("χαιρουσιν", itacismTransformer.apply(s6));
+        Assert.assertEquals("χαιρουσιν", itacismTransformer.apply(s7));
+        Assert.assertEquals("ναυς", itacismTransformer.apply(s8));
+        Assert.assertEquals("Ζευς", itacismTransformer.apply(s9));
     }
 }

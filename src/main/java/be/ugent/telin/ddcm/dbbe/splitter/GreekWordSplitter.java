@@ -42,9 +42,10 @@ public class GreekWordSplitter implements TextSplitter {
 
         exceptions = new HashSet<>();
 
-        exceptions.add(Pair.of("υ", "ο"));
-        exceptions.add(Pair.of("α", "ο"));
-        exceptions.add(Pair.of("ε", "ο"));
+        exceptions.add(Pair.of("ο", "υ"));
+        exceptions.add(Pair.of("α", "υ"));
+        exceptions.add(Pair.of("ε", "υ"));
+
     }
 
     @Override

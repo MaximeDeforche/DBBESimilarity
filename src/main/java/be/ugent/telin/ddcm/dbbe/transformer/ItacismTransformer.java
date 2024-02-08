@@ -12,7 +12,7 @@ public class ItacismTransformer extends AbstractRegexTextTransformer
         regexReplacements.add(Pair.of("η", "ι"));
         regexReplacements.add(Pair.of("ει", "ι"));
         regexReplacements.add(Pair.of("οι", "ι"));
-        regexReplacements.add(Pair.of("υ", "ι"));
+        regexReplacements.add(Pair.of("([^αοε])υ", "$1ι"));
         regexReplacements.add(Pair.of("ῃ", "ι"));
     }
 }
